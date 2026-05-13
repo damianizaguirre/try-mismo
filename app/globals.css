@@ -19,20 +19,20 @@ body {
 }
 
 /* Waitlist page — mobile first, desktop overrides at lg (1024px) */
-.wl-main       { padding: 48px 28px; }
+.wl-main       { padding: 36px 24px; }
 .wl-left       { width: 100%; }
-.wl-icon-wrap  { width: 52px; height: 52px; }
-.wl-icon-gap   { gap: 12px; margin-bottom: 20px; }
-.wl-wordmark   { font-size: 24px; }
-.wl-headline   { font-size: 28px; margin-bottom: 14px; }
-.wl-desc       { font-size: 16px; margin-bottom: 24px; max-width: 100%; }
+.wl-icon-wrap  { width: 46px; height: 46px; }
+.wl-icon-gap   { gap: 10px; margin-bottom: 14px; }
+.wl-wordmark   { font-size: 22px; }
+.wl-headline   { font-size: 24px; margin-bottom: 10px; }
+.wl-desc       { font-size: 14px; margin-bottom: 16px; max-width: 100%; }
 .wl-form       { max-width: 100%; }
-.wl-input      { font-size: 16px; padding: 14px 18px; }
-.wl-btn        { font-size: 16px; padding: 14px 18px; }
-.wl-nospam     { font-size: 12px; margin-top: 12px; }
-.wl-feedback   { font-size: 13px; }
-.wl-success-title { font-size: 17px; }
-.wl-success-sub   { font-size: 14px; }
+.wl-input      { font-size: 14px; padding: 10px 14px; }
+.wl-btn        { font-size: 14px; padding: 10px 14px; }
+.wl-nospam     { font-size: 11px; margin-top: 10px; }
+.wl-feedback   { font-size: 12px; }
+.wl-success-title { font-size: 16px; }
+.wl-success-sub   { font-size: 13px; }
 
 @media (min-width: 1024px) {
   .wl-main      { padding: 20.1vh 20.5vw; }
