@@ -79,7 +79,7 @@ export default function Home() {
           {/* Description — 19.86/1570 = 1.27vw, 0px gap to form in Figma */}
           <p
             className="text-black font-normal leading-normal"
-            style={{ fontFamily: SF, fontSize: 'clamp(11px, 1.27vw, 24px)', marginBottom: 'clamp(8px, 1.13vh, 18px)', maxWidth: 'clamp(220px, 30.3vw, 550px)' }}
+            style={{ fontFamily: SF, fontSize: 'clamp(11px, 1.27vw, 24px)', marginBottom: 'clamp(16px, 2.26vh, 36px)', maxWidth: 'clamp(220px, 30.3vw, 550px)' }}
           >
             Mismo captures your voice and convert it into a structured, searchable, and personal thinking space.
           </p>
