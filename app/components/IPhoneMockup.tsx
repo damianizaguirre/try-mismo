@@ -5,11 +5,10 @@ export default function IPhoneMockup() {
     <Image
       src="/assets/iphone-mockup.png"
       alt="Mismo iOS app"
-      width={297}
-      height={613}
+      fill
       quality={100}
       priority
-      className="flex-shrink-0"
+      style={{ objectFit: 'contain' }}
     />
   )
 }
