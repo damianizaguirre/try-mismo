@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import IPhoneMockup from './components/IPhoneMockup'
 
 export default function Home() {
   const [email, setEmail] = useState('')
@@ -90,31 +91,7 @@ export default function Home() {
 
         {/* Right — iPhone mockup */}
         <div className="hidden lg:flex flex-shrink-0 items-center justify-center">
-          <div className="relative w-[409px] h-[843px]">
-            {/* Phone outer frame */}
-            <div className="absolute inset-0 rounded-[62px] bg-black shadow-[0_0_0_1px_rgba(160,160,160,0.6),0_20px_60px_rgba(0,0,0,0.3)]" />
-            {/* Inner screen */}
-            <div className="absolute inset-[12px] rounded-[52px] bg-[#f9f9f9] overflow-hidden">
-              {/* Status bar */}
-              <div className="absolute top-[8px] left-0 right-0 flex items-center justify-between px-8 h-[22px]">
-                <span className="text-black text-[14px] font-semibold tracking-tight">9:41</span>
-                <Image src="/assets/status-bar-icons.svg" alt="" width={75} height={13} />
-              </div>
-              {/* Dynamic island */}
-              <div className="absolute top-[6px] left-1/2 -translate-x-1/2">
-                <Image src="/assets/dynamic-island.svg" alt="" width={111} height={31} />
-              </div>
-              {/* App content */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center px-8 pb-8">
-                <Image src="/assets/app-icon-screen.svg" alt="Mismo logo" width={125} height={95} className="mb-10" />
-                <p className="text-black text-[28px] font-semibold text-center leading-tight">Welcome to Mismo</p>
-                <p className="text-black/50 text-[18px] text-center mt-2 mb-10">Every thought, understood.</p>
-                <div className="w-full bg-black rounded-full py-4 flex items-center justify-center">
-                  <span className="text-white text-[18px]">Get Started</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <IPhoneMockup />
         </div>
 
       </div>

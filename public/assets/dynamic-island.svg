@@ -1,9 +1,9 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 111 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 93.2261 26.0366" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="dynamic-island">
-<rect id="cutout" width="110" height="31" rx="15.5" fill="var(--fill-0, #030303)"/>
-<circle id="camera-cutout" cx="93.6202" cy="15.6202" r="9.62021" fill="var(--fill-0, #0E0B0F)"/>
-<circle id="lens" cx="93.62" cy="15.6202" r="5.34456" fill="var(--fill-0, #161424)"/>
-<circle id="sensor" cx="93.6203" cy="15.6202" r="3.20674" fill="var(--fill-0, #0F0F2A)"/>
-<circle id="sensor_2" cx="93.6202" cy="14.5512" r="1.06891" fill="var(--fill-0, #393752)"/>
+<rect id="cutout" x="0.000204694" y="0.000448278" width="92.3862" height="26.0361" rx="13.0181" fill="var(--fill-0, #030303)"/>
+<circle id="camera-cutout" cx="78.6295" cy="13.1202" r="8.07977" fill="var(--fill-0, #0E0B0F)"/>
+<circle id="lens" cx="78.6292" cy="13.1193" r="4.48876" fill="var(--fill-0, #161424)"/>
+<circle id="sensor" cx="78.6293" cy="13.1194" r="2.69326" fill="var(--fill-0, #0F0F2A)"/>
+<circle id="sensor_2" cx="78.6294" cy="12.2223" r="0.897752" fill="var(--fill-0, #393752)"/>
 </g>
 </svg>
