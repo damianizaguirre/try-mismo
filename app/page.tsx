@@ -81,7 +81,7 @@ export default function Home() {
             className="text-black font-normal leading-normal"
             style={{ fontFamily: SF, fontSize: 'clamp(11px, 1.27vw, 24px)', marginBottom: 'clamp(6px, 0.8vh, 12px)', maxWidth: 'clamp(220px, 30.3vw, 550px)' }}
           >
-            Mismo is note taking app that capture voice and convert it into a structured, searchable, and personal thinking space.
+            Mismo captures your voice and convert it into a structured, searchable, and personal thinking space.
           </p>
 
           {/* Form — frame width 475/1570 = 30.3vw, height 51.56/1024 = 5.03vh */}
