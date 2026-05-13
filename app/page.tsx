@@ -31,7 +31,7 @@ export default function Home() {
   }
 
   return (
-    <main className="wl-main h-screen overflow-hidden bg-[#f4f4f4] flex items-center justify-center">
+    <main className="wl-main h-[100dvh] overflow-hidden bg-[#f4f4f4] flex items-center justify-center">
       <div className="w-full flex flex-row items-center justify-between">
 
         {/* Left — content */}

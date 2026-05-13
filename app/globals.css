@@ -13,13 +13,13 @@
 }
 
 body {
-  background: var(--background);
+  background: #f4f4f4;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Waitlist page — mobile first, desktop overrides at lg (1024px) */
-.wl-main       { padding: 36px 24px; }
+.wl-main       { padding: calc(36px + env(safe-area-inset-top)) 24px calc(36px + env(safe-area-inset-bottom)); }
 .wl-left       { width: 100%; }
 .wl-icon-wrap  { width: 46px; height: 46px; }
 .wl-icon-gap   { gap: 10px; margin-bottom: 14px; }
