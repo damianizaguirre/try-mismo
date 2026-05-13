@@ -5,8 +5,8 @@ export default function IPhoneMockup() {
     <Image
       src="/assets/iphone-mockup.png"
       alt="Mismo iOS app"
-      width={344}
-      height={708}
+      width={297}
+      height={613}
       quality={100}
       priority
       className="flex-shrink-0"

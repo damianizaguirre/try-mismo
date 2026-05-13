@@ -37,8 +37,8 @@ export default function Home() {
 
           {/* App icon + wordmark */}
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-[82px] h-[82px] bg-white rounded-[16px] shadow-[0px_0px_1.088px_rgba(0,0,0,0.25)] flex items-center justify-center overflow-hidden flex-shrink-0">
-              <Image src="/assets/app-icon.png" alt="Mismo" width={82} height={82} quality={100} />
+            <div className="w-[71px] h-[71px] bg-white rounded-[14px] shadow-[0px_0px_1.088px_rgba(0,0,0,0.25)] flex items-center justify-center overflow-hidden flex-shrink-0">
+              <Image src="/assets/app-icon.png" alt="Mismo" width={71} height={71} quality={100} />
             </div>
             <span className="text-[38px] font-semibold text-black leading-none tracking-tight" style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif' }}>
               Mismo
