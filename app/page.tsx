@@ -146,7 +146,7 @@ export default function Home() {
         </div>
 
         {/* Right — iPhone scales with viewport height: 612.73/1024 = 59.8vh */}
-        <div className="hidden lg:block flex-shrink-0" style={{ height: '59.8vh', aspectRatio: '297 / 613', position: 'relative' }}>
+        <div className="hidden lg:block flex-shrink-0" style={{ height: '74.75vh', aspectRatio: '297 / 613', position: 'relative' }}>
           <IPhoneMockup />
         </div>
 
