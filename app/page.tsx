@@ -79,7 +79,7 @@ export default function Home() {
           {/* Description — 19.86/1570 = 1.27vw, 0px gap to form in Figma */}
           <p
             className="text-black font-normal leading-normal"
-            style={{ fontFamily: SF, fontSize: 'clamp(11px, 1.27vw, 24px)', marginBottom: 'clamp(6px, 0.8vh, 12px)' }}
+            style={{ fontFamily: SF, fontSize: 'clamp(11px, 1.27vw, 24px)', marginBottom: 'clamp(6px, 0.8vh, 12px)', textWrap: 'balance' }}
           >
             Mismo is note taking app that capture voice and convert it into a structured, searchable, and personal thinking space.
           </p>
