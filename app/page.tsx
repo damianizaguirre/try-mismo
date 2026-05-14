@@ -61,7 +61,7 @@ export default function Home() {
 
           {/* Description */}
           <p className="wl-desc text-black font-normal leading-normal" style={{ fontFamily: SF }}>
-            Mismo captures your voice and convert it into a structured, searchable, and personal thinking space.
+            Mismo captures your voice and converts it into a structured, searchable, and personal thinking space.
           </p>
 
           {/* Form */}
