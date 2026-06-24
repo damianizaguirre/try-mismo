@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import IPhoneMockup from './components/IPhoneMockup'
 
 const SF = '-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif'
@@ -31,7 +32,7 @@ export default function Home() {
   }
 
   return (
-    <main className="wl-main h-[100dvh] overflow-hidden bg-[#f4f4f4] flex items-center justify-center">
+    <main className="wl-main relative h-[100dvh] overflow-hidden bg-[#f4f4f4] flex items-center justify-center">
       <div className="w-full flex flex-row items-center justify-between">
 
         {/* Left — content */}
@@ -119,6 +120,25 @@ export default function Home() {
         </div>
 
       </div>
+
+      {/* Footer */}
+      <footer className="absolute bottom-0 left-0 right-0 flex items-center justify-center gap-4 pb-4">
+        <Link
+          href="/privacy"
+          className="text-black/30 hover:text-black/60 transition-colors"
+          style={{ fontFamily: SF, fontSize: '11px' }}
+        >
+          Privacy Policy
+        </Link>
+        <span className="text-black/20" style={{ fontSize: '11px' }}>·</span>
+        <Link
+          href="/terms"
+          className="text-black/30 hover:text-black/60 transition-colors"
+          style={{ fontFamily: SF, fontSize: '11px' }}
+        >
+          Terms of Service
+        </Link>
+      </footer>
     </main>
   )
 }
