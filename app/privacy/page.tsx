@@ -190,13 +190,14 @@ export default function PrivacyPage() {
             <h2 className="font-semibold text-black mb-2">Data retention and deletion</h2>
             <p>
               Your recordings, transcripts, folders, and account data are retained as long as
-              your account is active. You can delete individual recordings from within the app
-              at any time. To delete your entire account and all associated data, email{' '}
+              your account is active. You can delete individual recordings at any time from
+              within the app. To delete your entire account and all associated data, go to{' '}
+              <span className="font-medium text-black">Settings → Delete Account</span> —
+              deletion is immediate and permanent. For any other data requests, contact us at{' '}
               <a href="mailto:heymismo@gmail.com"
                 className="text-black underline underline-offset-2 hover:text-black/60 transition-colors">
                 heymismo@gmail.com
-              </a>{' '}
-              and we will process the request within 7 days.
+              </a>.
             </p>
           </div>
 
