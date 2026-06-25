@@ -54,8 +54,9 @@ export default function PrivacyPage() {
               </li>
               <li>
                 <span className="font-medium text-black">Location data.</span>{' '}
-                If you grant location permission, we attach an approximate location to recordings
-                for context. This is optional and can be disabled in your device settings.
+                If you grant location permission, we attach an approximate location
+                (within ~100 meters) to recordings for context. This is optional and can be
+                disabled in your device settings.
               </li>
               <li>
                 <span className="font-medium text-black">Folders and reminders.</span>{' '}
@@ -74,8 +75,9 @@ export default function PrivacyPage() {
               </li>
               <li>
                 <span className="font-medium text-black">Usage analytics.</span>{' '}
-                Anonymized event data about how features are used (e.g., recording started,
-                folder created). No audio or transcript content is included.
+                Event data tied to your account about how you use the app (e.g., recording
+                started, folder created, tab viewed). No audio or transcript content is included
+                in these events.
               </li>
             </ul>
           </div>
@@ -87,7 +89,7 @@ export default function PrivacyPage() {
               <li>— Organizing recordings into folders and surfacing reminders</li>
               <li>— Delivering push notifications for reminders you create</li>
               <li>— Diagnosing crashes and improving app stability</li>
-              <li>— Understanding which features are used so we can improve the product</li>
+              <li>— Understanding how features are used so we can improve the product</li>
             </ul>
             <p className="mt-4">
               We do not sell your data. We do not use your recordings, transcripts, or personal
@@ -115,21 +117,33 @@ export default function PrivacyPage() {
                 </p>
               </div>
               <div>
-                <p className="font-medium text-black">OpenAI</p>
+                <p className="font-medium text-black">Deepgram</p>
                 <p className="text-black/60 text-sm mt-0.5">
-                  AI transcription and summarization. Your audio is sent to OpenAI for processing
-                  after each recording. Processed audio is not retained by OpenAI for training
-                  purposes under our API agreement.{' '}
-                  <a href="https://openai.com/privacy" target="_blank" rel="noopener noreferrer"
+                  Audio transcription. Your recordings are sent to Deepgram to be converted into
+                  text. Deepgram does not use your audio to train its models under our API
+                  agreement.{' '}
+                  <a href="https://deepgram.com/privacy" target="_blank" rel="noopener noreferrer"
                     className="underline underline-offset-2 hover:text-black/80 transition-colors">
-                    openai.com/privacy
+                    deepgram.com/privacy
+                  </a>
+                </p>
+              </div>
+              <div>
+                <p className="font-medium text-black">Anthropic</p>
+                <p className="text-black/60 text-sm mt-0.5">
+                  AI summarization. Your transcribed text is sent to Anthropic&apos;s Claude
+                  to generate summaries, extract reminders, and suggest folders. Anthropic does
+                  not use your content to train its models under our API agreement.{' '}
+                  <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener noreferrer"
+                    className="underline underline-offset-2 hover:text-black/80 transition-colors">
+                    anthropic.com/privacy
                   </a>
                 </p>
               </div>
               <div>
                 <p className="font-medium text-black">Google</p>
                 <p className="text-black/60 text-sm mt-0.5">
-                  Sign-in with Google (optional). If you choose Google Sign-In, Google shares
+                  Sign in with Google (optional). If you choose Google Sign-In, Google shares
                   your name and email with us for authentication only.{' '}
                   <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
                     className="underline underline-offset-2 hover:text-black/80 transition-colors">
@@ -140,8 +154,8 @@ export default function PrivacyPage() {
               <div>
                 <p className="font-medium text-black">Apple</p>
                 <p className="text-black/60 text-sm mt-0.5">
-                  Sign in with Apple (optional) and push notification delivery via APNs. Apple&apos;s
-                  privacy practices apply to any data shared through these services.{' '}
+                  Sign in with Apple (optional) and push notification delivery via APNs.
+                  Apple&apos;s privacy practices apply to data shared through these services.{' '}
                   <a href="https://www.apple.com/legal/privacy" target="_blank" rel="noopener noreferrer"
                     className="underline underline-offset-2 hover:text-black/80 transition-colors">
                     apple.com/legal/privacy
@@ -152,8 +166,8 @@ export default function PrivacyPage() {
                 <p className="font-medium text-black">Sentry</p>
                 <p className="text-black/60 text-sm mt-0.5">
                   Crash reporting and error tracking. Receives device model, OS version, and
-                  stack traces when the app encounters an error. No personal content is
-                  transmitted.{' '}
+                  stack traces when the app encounters an error. No recording content or personal
+                  information is transmitted.{' '}
                   <a href="https://sentry.io/privacy" target="_blank" rel="noopener noreferrer"
                     className="underline underline-offset-2 hover:text-black/80 transition-colors">
                     sentry.io/privacy
@@ -163,9 +177,10 @@ export default function PrivacyPage() {
               <div>
                 <p className="font-medium text-black">PostHog</p>
                 <p className="text-black/60 text-sm mt-0.5">
-                  Product analytics. Receives anonymized usage events to help us understand how
-                  the app is used. No audio, transcripts, or personally identifiable content is
-                  included in these events.{' '}
+                  Product analytics. Receives your user ID, email, and name to associate usage
+                  events with your account, and receives anonymized usage events (e.g., recording
+                  started, folder created, tab viewed). No audio or transcript content is
+                  included.{' '}
                   <a href="https://posthog.com/privacy" target="_blank" rel="noopener noreferrer"
                     className="underline underline-offset-2 hover:text-black/80 transition-colors">
                     posthog.com/privacy
@@ -176,11 +191,8 @@ export default function PrivacyPage() {
                 <p className="font-medium text-black">UserJot</p>
                 <p className="text-black/60 text-sm mt-0.5">
                   In-app feedback collection. Used to gather feature requests and bug reports you
-                  voluntarily submit through the app.{' '}
-                  <a href="https://userjot.com/privacy" target="_blank" rel="noopener noreferrer"
-                    className="underline underline-offset-2 hover:text-black/80 transition-colors">
-                    userjot.com/privacy
-                  </a>
+                  voluntarily submit through the app. Only information you actively enter is
+                  shared.
                 </p>
               </div>
             </div>
