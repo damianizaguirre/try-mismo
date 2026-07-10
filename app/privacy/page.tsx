@@ -22,7 +22,7 @@ export default function PrivacyPage() {
         </Link>
 
         <h1 className="text-2xl font-semibold text-black mb-1">Privacy Policy</h1>
-        <p className="text-sm text-black/40 mb-10">Effective June 24, 2026</p>
+        <p className="text-sm text-black/40 mb-10">Effective July 9, 2026</p>
 
         <section className="space-y-8 text-[15px] leading-relaxed text-black/80">
 
@@ -69,6 +69,13 @@ export default function PrivacyPage() {
                 have set up in the app.
               </li>
               <li>
+                <span className="font-medium text-black">Subscription information.</span>{' '}
+                If you subscribe to Mismo Pro, we receive your subscription status and purchase
+                history from Apple via RevenueCat to unlock paid features and keep your
+                subscription in sync across devices. Payment is processed entirely by Apple — we
+                never receive your payment card details.
+              </li>
+              <li>
                 <span className="font-medium text-black">Crash and error data.</span>{' '}
                 Technical information (device model, OS version, stack traces) collected
                 automatically when the app crashes. No recording content is included.
@@ -88,6 +95,7 @@ export default function PrivacyPage() {
               <li>— Transcribing and summarizing your voice recordings</li>
               <li>— Organizing recordings into folders and surfacing reminders</li>
               <li>— Delivering push notifications for reminders you create</li>
+              <li>— Managing your Mismo Pro subscription and unlocking paid features</li>
               <li>— Diagnosing crashes and improving app stability</li>
               <li>— Understanding how features are used so we can improve the product</li>
             </ul>
@@ -154,11 +162,25 @@ export default function PrivacyPage() {
               <div>
                 <p className="font-medium text-black">Apple</p>
                 <p className="text-black/60 text-sm mt-0.5">
-                  Sign in with Apple (optional) and push notification delivery via APNs.
+                  Sign in with Apple (optional), push notification delivery via APNs, and
+                  processing of your Mismo Pro subscription payments through the App Store.
                   Apple&apos;s privacy practices apply to data shared through these services.{' '}
                   <a href="https://www.apple.com/legal/privacy" target="_blank" rel="noopener noreferrer"
                     className="underline underline-offset-2 hover:text-black/80 transition-colors">
                     apple.com/legal/privacy
+                  </a>
+                </p>
+              </div>
+              <div>
+                <p className="font-medium text-black">RevenueCat</p>
+                <p className="text-black/60 text-sm mt-0.5">
+                  Subscription management and purchase validation. Receives your purchase history
+                  and subscription status to unlock Mismo Pro and keep your subscription in sync
+                  across devices. Payment is handled entirely by Apple; RevenueCat and Mismo never
+                  see your card details.{' '}
+                  <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer"
+                    className="underline underline-offset-2 hover:text-black/80 transition-colors">
+                    revenuecat.com/privacy
                   </a>
                 </p>
               </div>
