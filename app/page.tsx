@@ -138,6 +138,14 @@ export default function Home() {
         >
           Terms of Service
         </Link>
+        <span className="text-black/20" style={{ fontSize: '11px' }}>·</span>
+        <Link
+          href="/support"
+          className="text-black/30 hover:text-black/60 transition-colors"
+          style={{ fontFamily: SF, fontSize: '11px' }}
+        >
+          Support
+        </Link>
       </footer>
     </main>
   )
