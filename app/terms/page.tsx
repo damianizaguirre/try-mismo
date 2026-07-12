@@ -41,7 +41,7 @@ export default function TermsPage() {
         </Link>
 
         <h1 className="text-2xl font-semibold text-black mb-1">Terms of Service</h1>
-        <p className="text-sm text-black/40 mb-10">Last updated: June 14, 2026</p>
+        <p className="text-sm text-black/40 mb-10">Last updated: July 12, 2026</p>
 
         <div className="space-y-10">
 
@@ -92,12 +92,12 @@ export default function TermsPage() {
 
           <Section
             title="4. Subscription & Billing"
-            plain="Mismo Pro is a paid subscription billed through Apple. Apple handles all payments and refunds — not us. Your subscription renews automatically until you cancel it in your App Store settings."
+            plain="Mismo Pro is a paid subscription billed through Apple. Apple handles all payments and refunds — not us. Your subscription renews automatically until you cancel — either in the app under Settings → Manage Subscription, or in your App Store settings."
           >
             <p><span className="font-medium text-black">Subscription Plans.</span> Mismo offers an optional paid subscription (&quot;Mismo Pro&quot;) with monthly and annual billing options. Pricing is displayed within the App prior to purchase.</p>
             <p><span className="font-medium text-black">Free Trial.</span> New users may be offered a free trial. At the end of the trial, your subscription begins automatically unless cancelled at least 24 hours before the trial expires. Free trials are available once per Apple ID per subscription group.</p>
             <p><span className="font-medium text-black">Billing.</span> All payments are processed by Apple through the App Store. Subscriptions automatically renew at the end of each billing period unless cancelled.</p>
-            <p><span className="font-medium text-black">Cancellation.</span> You may cancel at any time through iPhone Settings → Apple ID → Subscriptions. Cancellation takes effect at the end of the current billing period.</p>
+            <p><span className="font-medium text-black">Cancellation.</span> You may cancel at any time — either from within the App under Settings → Manage Subscription, or through iPhone Settings → Apple ID → Subscriptions. Both are managed by Apple; cancellation takes effect at the end of the current billing period, and you keep access until then.</p>
             <p><span className="font-medium text-black">Refunds.</span> All refund requests are handled by Apple. We do not process refunds directly. To request a refund, visit <span className="font-medium text-black">reportaproblem.apple.com</span>.</p>
             <p><span className="font-medium text-black">Price Changes.</span> We may change subscription pricing with advance notice. Continued use after a price change constitutes acceptance.</p>
           </Section>
